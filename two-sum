@@ -1,0 +1,28 @@
+public class Solution {
+
+    /*
+     Devuelve los índices de los dos números del arreglo que suman el target.
+
+     Se usa un diccionario para guardar los números que ya aparecieron y así
+     poder saber rápido si el valor que falta para completar la suma ya existe.
+     De esta forma solo se recorre el arreglo una vez.
+    */
+
+    public int[] TwoSum(int[] nums, int target) {
+
+        var numerosGuardados = new Dictionary<int, int>(); // número -> índice
+
+        for (int i = 0; i < nums.Length; i++) {
+            int numeroActual = nums[i];
+            int faltante = target - numeroActual;
+
+            if (numerosGuardados.ContainsKey(faltante)) {
+                return new int[] { numerosGuardados[faltante], i };
+            }
+
+            numerosGuardados[numeroActual] = i;
+        }
+
+        return new int[] { };
+    }
+}
