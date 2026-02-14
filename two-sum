@@ -10,7 +10,7 @@ public class Solution {
 
     public int[] TwoSum(int[] nums, int target) {
 
-        var numerosGuardados = new Dictionary<int, int>(); // número -> índice
+        var numerosGuardados = new Dictionary<int, int>();
 
         for (int i = 0; i < nums.Length; i++) {
             int numeroActual = nums[i];
