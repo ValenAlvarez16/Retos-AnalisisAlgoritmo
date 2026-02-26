@@ -6,6 +6,14 @@ La idea es practicar cómo resolver problemas de programación buscando siempre 
 
 ## Contenido
 
-- `two-sum/` → Solución al problema Two Sum usando un diccionario en C# para que el algoritmo sea más rápido.
+## two-sum/
+Encuentra los índices de dos números en un arreglo que sumen un valor objetivo.
+Usa un diccionario para recordar los números que ya vimos, evitando tener que
+recorrer el arreglo dos veces.
+
+## maximum-subarray/
+Encuentra la suma más grande de un subarray contiguo en un arreglo de números.
+Usa el algoritmo de Kadane: si la suma acumulada se vuelve negativa, la descarta
+y continúa desde el elemento actual.
 
 Más adelante se irán agregando otros retos.
