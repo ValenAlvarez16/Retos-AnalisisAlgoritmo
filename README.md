@@ -14,4 +14,8 @@ La idea es practicar cómo resolver problemas de programación buscando siempre 
 
 - **Non-overlapping Intervals**: Dado un conjunto de intervalos, encuentra el número mínimo que se deben eliminar para que los demás no se superpongan. Primero se ordenan por su tiempo de finalización y luego se revisa si cada intervalo se solapa con el anterior.
 
+- **House Robber**: Calcula el máximo dinero que se puede robar sin tomar casas consecutivas. En cada paso se decide si conviene robar la casa actual o mantener lo acumulado.
+
+- **Min Cost Climbing Stairs**: Calcula el costo mínimo para llegar a la cima de una escalera. En cada paso se compara si es mejor venir desde el paso anterior o desde dos pasos atrás.
+
 Más adelante se irán agregando otros retos.
